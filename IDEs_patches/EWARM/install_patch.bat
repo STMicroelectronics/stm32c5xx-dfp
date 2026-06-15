@@ -2,7 +2,7 @@
 setlocal EnableExtensions EnableDelayedExpansion
 
 set "STM32XX=STM32C5"
-set "PATCH_FILE=STMicroelectronics.stm32c5xx.2.0.0.iar.zip"
+set "PATCH_FILE=STMicroelectronics.stm32c5xx.2.1.0.iar.zip"
 
 set "SCRIPT_DIR=%~dp0"
 if "%SCRIPT_DIR:~-1%"=="\" set "SCRIPT_DIR=%SCRIPT_DIR:~0,-1%"

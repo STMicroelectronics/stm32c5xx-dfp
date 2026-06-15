@@ -8,7 +8,7 @@ This document outlines the procedure required to extend an existing EWARM instal
 
 ## Distribution Contents
 
-The `STMicroelectronics.stm32c5xx.2.0.0.iar.zip` archive provides the following STM32C5xx collateral:
+The `STMicroelectronics.stm32c5xx.2.1.0.iar.zip` archive provides the following STM32C5xx collateral:
 
 - Device part-number definitions
 - Linker configuration files
@@ -52,4 +52,4 @@ The script performs the following actions:
 ### Manual Installation
 
 1. Close all running instances of EWARM.
-2. Extract the contents of `STMicroelectronics.stm32c5xx.2.0.0.iar.zip` into `<IAR install directory>/arm` and allow the operating system to overwrite existing STM32C5xx files if prompted.
+2. Extract the contents of `STMicroelectronics.stm32c5xx.2.1.0.iar.zip` into `<IAR install directory>/arm` and allow the operating system to overwrite existing STM32C5xx files if prompted.

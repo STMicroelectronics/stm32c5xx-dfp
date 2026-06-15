@@ -2,7 +2,7 @@
 set -euo pipefail
 
 STM32XX="STM32C5"
-PATCH_FILE="STMicroelectronics.stm32c5xx.2.0.0.iar.zip"
+PATCH_FILE="STMicroelectronics.stm32c5xx.2.1.0.iar.zip"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PATCH_PATH="${SCRIPT_DIR}/${PATCH_FILE}"

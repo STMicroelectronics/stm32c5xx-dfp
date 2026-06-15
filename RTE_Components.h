@@ -1,7 +1,7 @@
 #ifndef RTE_COMPONENTS_H_STMicroelectronics_stm32c5xx_dfp
 #define RTE_COMPONENTS_H_STMicroelectronics_stm32c5xx_dfp
 
-// origin-pack: STMicroelectronics::stm32c5xx_dfp@2.0.0
+// origin-pack: STMicroelectronics::stm32c5xx_dfp@2.1.0
 // file-format: 1.0.0
 
 // Device headers and defines
@@ -14,6 +14,10 @@
 #endif
 
 #if (CMSIS_Device_STM32C531CCT6)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C531CCU3)
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
@@ -49,7 +53,19 @@
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
+#if (CMSIS_Device_STM32C531KBU3)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C531KBU3TR)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
 #if (CMSIS_Device_STM32C531KBU6)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C531KBU6TR)
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
@@ -57,7 +73,19 @@
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
+#if (CMSIS_Device_STM32C531KCU3)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C531KCU3TR)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
 #if (CMSIS_Device_STM32C531KCU6)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C531KCU6TR)
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
@@ -65,7 +93,23 @@
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
+#if (CMSIS_Device_STM32C531RCT3)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C531RCT3TR)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
 #if (CMSIS_Device_STM32C531RCT6)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C532CBT3)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C532CBT3TR)
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
@@ -74,6 +118,14 @@
 #endif
 
 #if (CMSIS_Device_STM32C532CBU6)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C532CCT3)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C532CCT3TR)
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
@@ -121,6 +173,14 @@
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
+#if (CMSIS_Device_STM32C532KCU3)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C532KCU3TR)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
 #if (CMSIS_Device_STM32C532KCU6)
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
@@ -157,7 +217,19 @@
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
+#if (CMSIS_Device_STM32C542KCU3)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C542KCU3TR)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
 #if (CMSIS_Device_STM32C542KCU6)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C542RCT3)
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
@@ -165,7 +237,23 @@
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
+#if (CMSIS_Device_STM32C551CCT3)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C551CCT3TR)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
 #if (CMSIS_Device_STM32C551CCT6)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C551CCT7)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C551CCT7TR)
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
@@ -197,6 +285,10 @@
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
+#if (CMSIS_Device_STM32C551KEU6TR)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
 #if (CMSIS_Device_STM32C551MCT6)
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
@@ -209,7 +301,15 @@
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
+#if (CMSIS_Device_STM32C551RCT6J)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
 #if (CMSIS_Device_STM32C551RET6)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C551RET6J)
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
@@ -217,7 +317,15 @@
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
+#if (CMSIS_Device_STM32C551VCT6TR)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
 #if (CMSIS_Device_STM32C551VET6)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C551VET6TR)
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
@@ -238,6 +346,10 @@
 #endif
 
 #if (CMSIS_Device_STM32C552KCT6)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C552KCU3)
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
@@ -265,7 +377,15 @@
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
+#if (CMSIS_Device_STM32C552RCT6J)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
 #if (CMSIS_Device_STM32C552RET6)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C552RET6J)
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
@@ -297,7 +417,23 @@
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
+#if (CMSIS_Device_STM32C562MET6TR)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C562RET3)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C562RET3TR)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
 #if (CMSIS_Device_STM32C562RET6)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C562RET6J)
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
@@ -345,11 +481,23 @@
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
+#if (CMSIS_Device_STM32C591RET3)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C591RET3TR)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
 #if (CMSIS_Device_STM32C591RET6)
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
 #if (CMSIS_Device_STM32C591RGT6)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C591RGT6TR)
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
@@ -370,6 +518,14 @@
 #endif
 
 #if (CMSIS_Device_STM32C593CET6)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C593CEU3)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C593CEU3TR)
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
@@ -445,6 +601,14 @@
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
+#if (CMSIS_Device_STM32C5A3KGU3)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
+#if (CMSIS_Device_STM32C5A3KGU3TR)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
 #if (CMSIS_Device_STM32C5A3KGU6)
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
@@ -465,13 +629,17 @@
     #define CMSIS_device_header "Include/stm32c5xx.h"
 #endif
 
+#if (CMSIS_Device_STM32C5A3ZGT7)
+    #define CMSIS_device_header "Include/stm32c5xx.h"
+#endif
+
 
 // RTE Content
-#if (CMSIS_USE_Device_Startup_2_0_0)
+#if (CMSIS_USE_Device_Startup_2_1_0)
     #define RTE_DEVICE_STARTUP_STM32C5XX    /* Device Startup for STM32C5 */
 #endif
 
-#if (CMSIS_USE_Device_Startup_SRAM_2_0_0)
+#if (CMSIS_USE_Device_Startup_SRAM_2_1_0)
     #define RTE_DEVICE_STARTUP_STM32C5XX    /* Device Startup for STM32C5 */
 #endif
 
