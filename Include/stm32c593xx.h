@@ -1389,7 +1389,7 @@ typedef struct
   *        This value is the default HSI range value after Reset.
   */
 #if !defined(HSI_RESET_VALUE)
-#define HSI_RESET_VALUE          4800000UL /*!< HSI resetValue of the Internal oscillator in Hz */
+#define HSI_RESET_VALUE          48000000UL /*!< HSI resetValue of the Internal oscillator in Hz */
 #endif /* !HSI_RESET_VALUE */
 
 
